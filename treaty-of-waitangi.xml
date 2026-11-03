@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="treaty-of-waitangi.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <documentCollection name="treaty" contains="originalVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/!main"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi"/>
+          <FRBRalias value="Te Tiriti o Waitangi" name="maori"/>
+          <FRBRalias value="The Treaty of Waitangi" name="english"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini" as="#author_gvergottini"/>
+          <FRBRcountry value="nz"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/mul@1840-02-06/!main"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/mul@1840-02-06"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini" as="#author_gvergottini"/>
+          <FRBRlanguage language="mul"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/mul@1840-02-06/!main.xml"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/mul@1840-02-06.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor_gvergottini"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini">
+        <TLCOrganization eId="crown_gvergottini" href="/ontology/organization/gb.crown" showAs="The British Crown"/>
+        <TLCPerson eId="gvergottini" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCPerson eId="hobson_gvergottini" href="/ontology/person/nz.williamHobson" showAs="William Hobson"/>
+        <TLCRole eId="author_gvergottini" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor_gvergottini" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCRole eId="lieutenantGovernor_gvergottini" href="/ontology/role/nz.lieutenantGovernor" showAs="Lieutenant Governor"/>
+      </references>
+    </meta>
+    <preface>
+      <p class="collectionTitle"><docTitle>Te Tiriti o Waitangi</docTitle></p>
+      <p class="collectionTitle2">The Treaty of Waitangi</p>
+      <p class="collectionDate"><docDate date="1840-02-06">6 February 1840</docDate></p>
+      <p class="editorial">The Māori and English texts are presented side by side. They differ in meaning, and neither is marked up as a translation of the other. Their alignment here follows their articles only and is not a claim of equivalence.</p>
+    </preface>
+    <collectionBody>
+        <component eId="mao" GUID="5166286B-9FF4-40A4-A465-7E2BE988A4B3">
+          <doc name="tiriti" contains="originalVersion">
+            <meta>
+      <identification source="#gvergottini_mao">
+        <FRBRWork>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/!tiriti"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi"/>
+          <FRBRalias value="Te Tiriti o Waitangi" name="maori"/>
+          <FRBRalias value="The Treaty of Waitangi" name="english"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini_mao" as="#author_gvergottini_mao"/>
+          <FRBRcountry value="nz"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/mao@1840-02-06/!tiriti"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/mao@1840-02-06"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini_mao" as="#author_gvergottini_mao"/>
+          <FRBRlanguage language="mao"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/mao@1840-02-06/!tiriti.xml"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/mao@1840-02-06.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini_mao" as="#editor_gvergottini_mao"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini_mao">
+        <TLCOrganization eId="crown_gvergottini_mao" href="/ontology/organization/gb.crown" showAs="The British Crown"/>
+        <TLCPerson eId="gvergottini_mao" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCPerson eId="hobson_gvergottini_mao" href="/ontology/person/nz.williamHobson" showAs="William Hobson"/>
+        <TLCRole eId="author_gvergottini_mao" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor_gvergottini_mao" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCRole eId="lieutenantGovernor_gvergottini_mao" href="/ontology/role/nz.lieutenantGovernor" showAs="Lieutenant Governor"/>
+      </references>
+            </meta>
+            <preface>
+              <p class="textTitle"><docTitle>Te Reo Māori</docTitle></p>
+            </preface>
+            <preamble xml:lang="mi">
+              <container name="recitals" eId="mao__recitals" GUID="561F6127-A592-49DB-B781-3C62825A3453">
+                <p>Ko Wikitoria, te Kuini o Ingarani, i tana mahara atawai ki nga Rangatira me nga Hapu o Nu Tirani i tana hiahia hoki kia tohungia ki a ratou o ratou rangatiratanga, me to ratou wenua, a kia mau tonu hoki te Rongo ki a ratou me te Atanoho hoki kua wakaaro ia he mea tika kia tukua mai tetahi Rangatira hei kai wakarite ki nga Tangata maori o Nu Tirani-kia wakaaetia e nga Rangatira maori te Kawanatanga o te Kuini ki nga wahikatoa o te Wenua nei me nga Motu-na te mea hoki he tokomaha ke nga tangata o tona Iwi Kua noho ki tenei wenua, a e haere mai nei.</p>
+                <p>Na ko te Kuini e hiahia ana kia wakaritea te Kawanatanga kia kaua ai nga kino e puta mai ki te tangata Maori ki te Pakeha e noho ture kore ana.</p>
+                <p>Na, kua pai te Kuini kia tukua a hau a Wiremu Hopihona he Kapitana i te Roiara Nawi hei Kawana mo nga wahi katoa o Nu Tirani e tukua aianei, amua atu ki te Kuini e mea atu ana ia ki nga Rangatira o te wakaminenga o nga hapu o Nu Tirani me era Rangatira atu enei ture ka korerotia nei.</p>
+              </container>
+            </preamble>
+            <mainBody xml:lang="mi">
+              <article eId="mao__art_1" GUID="79651DDE-A13E-44C5-809D-6F53FCF9DF8C">
+                <num>Ko te Tuatahi</num>
+                <content>
+                  <p>Ko nga Rangatira o te Wakaminenga me nga Rangatira katoa hoki ki hai i uru ki taua wakaminenga ka tuku rawa atu ki te Kuini o Ingarani ake tonu atu-te Kawanatanga katoa o o ratou wenua.</p>
+                </content>
+              </article>
+              <article eId="mao__art_2" GUID="618D3963-D40A-431F-BFE2-26E5F7D4660E">
+                <num>Ko te Tuarua</num>
+                <content>
+                  <p>Ko te Kuini o Ingarani ka wakarite ka wakaae ki nga Rangatira ki nga hapu-ki nga tangata katoa o Nu Tirani te tino rangatiratanga o o ratou wenua o ratou kainga me o ratou taonga katoa. Otiia ko nga Rangatira o te Wakaminenga me nga Rangatira katoa atu ka tuku ki te Kuini te hokonga o era wahi wenua e pai ai te tangata nona te Wenua-ki te ritenga o te utu e wakaritea ai e ratou ko te kai hoko e meatia nei e te Kuini hei kai hoko mona.</p>
+                </content>
+              </article>
+              <article eId="mao__art_3" GUID="E0237062-7720-41A1-8C81-194F2DD32E6A">
+                <num>Ko te Tuatoru</num>
+                <content>
+                  <p>Hei wakaritenga mai hoki tenei mo te wakaaetanga ki te Kawanatanga o te Kuini-Ka tiakina e te Kuini o Ingarani nga tangata maori katoa o Nu Tirani ka tukua ki a ratou nga tikanga katoa rite tahi ki ana mea ki nga tangata o Ingarani.</p>
+                </content>
+              </article>
+            </mainBody>
+            <conclusions xml:lang="mi">
+              <container name="signature" eId="mao__sig" GUID="8540D1BE-9600-4E87-9FE2-17719B160D48">
+                <p class="signatureLine"><signature refersTo="#hobson_gvergottini_mao"><person refersTo="#hobson_gvergottini_mao" as="#lieutenantGovernor_gvergottini_mao">(Signed) William Hobson,</person></signature></p>
+                <p class="signatureRole"><role refersTo="#lieutenantGovernor_gvergottini_mao">Consul and Lieutenant-Governor.</role></p>
+              </container>
+              <container name="acceptance" eId="mao__acceptance" GUID="79FE9A82-F994-49A1-A26E-5526A709C953">
+                <p>Na ko matou ko nga Rangatira o te Wakaminenga o nga hapu o Nu Tirani ka huihui nei ki Waitangi ko matou hoki ko nga Rangatira o Nu Tirani ka kite nei i te ritenga o enei kupu, ka tangohia ka wakaaetia katoatia e matou, koia ka tohungia ai o matou ingoa o matou tohu.</p>
+              </container>
+              <container name="done" eId="mao__done" GUID="87B923F7-E29E-42E5-98FC-9D59D418382F">
+                <p>Ka meatia tenei ki Waitangi i te ono o nga ra o Pepueri i te tau kotahi mano, e waru rau e wa te kau o to tatou Ariki.</p>
+              </container>
+              <container name="signatories" eId="mao__signatories" GUID="2000193C-AFEC-46E6-AD44-09375324B878">
+                <p class="signatories">Ko nga Rangatira o te wakaminenga.</p>
+              </container>
+            </conclusions>
+          </doc>
+        </component>
+        <component eId="eng" GUID="35740CA3-6957-4CEA-8724-EBF3CB3DC7DA">
+          <doc name="treaty" contains="originalVersion">
+            <meta>
+      <identification source="#gvergottini_eng">
+        <FRBRWork>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/!treaty"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi"/>
+          <FRBRalias value="Te Tiriti o Waitangi" name="maori"/>
+          <FRBRalias value="The Treaty of Waitangi" name="english"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini_eng" as="#author_gvergottini_eng"/>
+          <FRBRcountry value="nz"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/eng@1840-02-06/!treaty"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/eng@1840-02-06"/>
+          <FRBRdate date="1840-02-06" name="firstSigning"/>
+          <FRBRauthor href="#crown_gvergottini_eng" as="#author_gvergottini_eng"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/nz/doc/treaty/1840-02-06/waitangi/eng@1840-02-06/!treaty.xml"/>
+          <FRBRuri value="/akn/nz/doc/treaty/1840-02-06/waitangi/eng@1840-02-06.xml"/>
+          <FRBRdate date="2026-11-02" name="markup"/>
+          <FRBRauthor href="#gvergottini_eng" as="#editor_gvergottini_eng"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini_eng">
+        <TLCOrganization eId="crown_gvergottini_eng" href="/ontology/organization/gb.crown" showAs="The British Crown"/>
+        <TLCPerson eId="gvergottini_eng" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCPerson eId="hobson_gvergottini_eng" href="/ontology/person/nz.williamHobson" showAs="William Hobson"/>
+        <TLCRole eId="author_gvergottini_eng" href="/ontology/role/author" showAs="Author"/>
+        <TLCRole eId="editor_gvergottini_eng" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCRole eId="lieutenantGovernor_gvergottini_eng" href="/ontology/role/nz.lieutenantGovernor" showAs="Lieutenant Governor"/>
+      </references>
+            </meta>
+            <preface>
+              <p class="textTitle"><docTitle>English</docTitle></p>
+            </preface>
+            <preamble xml:lang="en">
+              <container name="recitals" eId="eng__recitals" GUID="B1F8A82B-173E-46FC-819E-932F435AC2A0">
+                <p>HER MAJESTY VICTORIA Queen of the United Kingdom of Great Britain and Ireland regarding with Her Royal Favour the Native Chiefs and Tribes of New Zealand and anxious to protect their just Rights and Property and to secure to them the enjoyment of Peace and Good Order has deemed it necessary in consequence of the great number of Her Majesty’s Subjects who have already settled in New Zealand and the rapid extension of Emigration both from Europe and Australia which is still in progress to constitute and appoint a functionary properly authorized to treat with the Aborigines of New Zealand for the recognition of Her Majesty’s Sovereign authority over the whole or any part of those islands—Her Majesty therefore being desirous to establish a settled form of Civil Government with a view to avert the evil consequences which must result from the absence of the necessary Laws and Institutions alike to the native population and to Her subjects has been graciously pleased to empower and to authorize me William Hobson a Captain in Her Majesty’s Royal Navy Consul and Lieutenant Governor of such parts of New Zealand as may be or hereafter shall be ceded to her Majesty to invite the confederated and independent Chiefs of New Zealand to concur in the following Articles and Conditions.</p>
+              </container>
+            </preamble>
+            <mainBody xml:lang="en">
+              <article eId="eng__art_1" GUID="4A108514-6F31-4A86-A026-F35927DCEFE1">
+                <num>Article the First</num>
+                <content>
+                  <p>The Chiefs of the Confederation of the United Tribes of New Zealand and the separate and independent Chiefs who have not become members of the Confederation cede to Her Majesty the Queen of England absolutely and without reservation all the rights and powers of Sovereignty which the said Confederation or Individual Chiefs respectively exercise or possess, or may be supposed to exercise or to possess over their respective Territories as the sole Sovereigns thereof.</p>
+                </content>
+              </article>
+              <article eId="eng__art_2" GUID="6FF2409C-B266-467B-A45D-7EB614439121">
+                <num>Article the Second</num>
+                <content>
+                  <p>Her Majesty the Queen of England confirms and guarantees to the Chiefs and Tribes of New Zealand and to the respective families and individuals thereof the full exclusive and undisturbed possession of their Lands and Estates Forests Fisheries and other properties which they may collectively or individually possess so long as it is their wish and desire to retain the same in their possession; but the Chiefs of the United Tribes and the individual Chiefs yield to Her Majesty the exclusive right of Preemption over such lands as the proprietors thereof may be disposed to alienate at such prices as may be agreed upon between the respective Proprietors and persons appointed by Her Majesty to treat with them in that behalf.</p>
+                </content>
+              </article>
+              <article eId="eng__art_3" GUID="C1E3B447-C2B0-447E-9F21-21152CF187CC">
+                <num>Article the Third</num>
+                <content>
+                  <p>In consideration thereof Her Majesty the Queen of England extends to the Natives of New Zealand Her royal protection and imparts to them all the Rights and Privileges of British Subjects.</p>
+                </content>
+              </article>
+            </mainBody>
+            <conclusions xml:lang="en">
+              <container name="signature" eId="eng__sig" GUID="9C1774B6-F229-4819-AA42-43B936A87288">
+                <p class="signatureLine"><signature refersTo="#hobson_gvergottini_eng"><person refersTo="#hobson_gvergottini_eng" as="#lieutenantGovernor_gvergottini_eng">W HOBSON</person></signature></p>
+                <p class="signatureRole"><role refersTo="#lieutenantGovernor_gvergottini_eng">Lieutenant Governor.</role></p>
+              </container>
+              <container name="acceptance" eId="eng__acceptance" GUID="E50A4DD8-9D54-4746-B6FD-00D46B66356D">
+                <p>Now therefore We the Chiefs of the Confederation of the United Tribes of New Zealand being assembled in Congress at Victoria in Waitangi and We the Separate and Independent Chiefs of New Zealand claiming authority over the Tribes and Territories which are specified after our respective names, having been made fully to understand the Provisions of the foregoing Treaty, accept and enter into the same in the full spirit and meaning thereof: in witness of which we have attached our signatures or marks at the places and the dates respectively specified.</p>
+              </container>
+              <container name="done" eId="eng__done" GUID="BE15FAFA-FA6C-4DEA-ADAD-31B60A67BC8E">
+                <p>Done at Waitangi this Sixth day of February in the year of Our Lord One thousand eight hundred and forty.</p>
+              </container>
+              <container name="signatories" eId="eng__signatories" GUID="590E1367-3F78-42AF-8916-0464EA01A958">
+                <p class="signatories">[Here follow signatures, dates, etc.]</p>
+              </container>
+            </conclusions>
+          </doc>
+        </component>
+    </collectionBody>
+  </documentCollection>
+</akomaNtoso>
